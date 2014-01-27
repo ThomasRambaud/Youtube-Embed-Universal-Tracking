@@ -4,6 +4,7 @@ Youtube-Embed-Universal-Tracking
 This little JavaScript snippet allows you to handle the events (play, pause, ended, cued, buffering) of any Youtube 
 embedded video and track it to your favorite analytics solution. 
 It handles Google Analytics per default automaticaly, but you can use your own analytics solution easily.
+It works as a standalone JavaScript file, there is absolutely no dependencies. Just drop it into your project and include it in your HTML page and you're done.
 
 Installation:
 
