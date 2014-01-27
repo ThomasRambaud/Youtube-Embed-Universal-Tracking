@@ -8,7 +8,7 @@ It handles Google Analytics per default automaticaly, but you can use your own a
 Installation:
 
 1 . Just include the script at the bottom of your HTML page.
-<script type="text/javascript" src="yeut-1.0.js"></script>	
+    <script type="text/javascript" src="yeut-1.0.js"></script>	
 
 2 . If you use Google Analytics, no worries, all the tracking is done automaticaly. Otherwise, you must, after you included 
 YEUTA, redefine the following function:
