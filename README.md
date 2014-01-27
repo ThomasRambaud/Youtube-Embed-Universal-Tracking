@@ -7,7 +7,7 @@ It handles Google Analytics per default automaticaly, but you can use your own a
 
 Installation:
 
-1 . Just include the script at the bottom of your HTML page.
+1 . Just include the script at the bottom of your HTML page. It will detect and track all iframes existing onto the page.
 
     <script type="text/javascript" src="yeut-1.0.js"></script>	
 
