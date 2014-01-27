@@ -13,10 +13,10 @@ Installation:
 2 . If you use Google Analytics, no worries, all the tracking is done automaticaly. Otherwise, you must, after you included 
 YEUTA, redefine the following function:
 
-YTAnalyticsTrack = function(category, action, label){
-    // category is "Videos" per default
-    // action can be "Ended", "Playing", "Paused", "Buffering", "Cued"
-    // label is the Youtube video ID
-    // include your tracking code here
-}
+    YTAnalyticsTrack = function(category, action, label){
+        // category is "Videos" per default
+        // action can be "Ended", "Playing", "Paused", "Buffering", "Cued"
+        // label is the Youtube video ID
+        // include your tracking code here
+    }
 
