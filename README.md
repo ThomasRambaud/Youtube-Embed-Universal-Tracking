@@ -11,7 +11,7 @@ Installation:
 
     <script type="text/javascript" src="yeut-1.0.js"></script>	
 
-2 . If you use Google Analytics, no worries, all the tracking is done automaticaly. Otherwise, you must, after you included 
+2 (optional) . If you use Google Analytics, no worries, all the tracking is done automaticaly. Otherwise, you must, after you included 
 YEUTA, redefine the following function:
 
     YTAnalyticsTrack = function(category, action, label){
