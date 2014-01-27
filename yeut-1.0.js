@@ -32,7 +32,7 @@ function onYouTubeIframeAPIReady(event) {
 function onPlayerStateChange(event){
 	var videoURL = event.target.getVideoUrl(),
 	regex = /[?&]{1}v=([^&]+)/,
-	matches = videoURL.match(regex);
+	matches = videoURL.match(regex),
 	videoID = matches[1];
 
 	YTOnPlayerStateChangeCustom(event);
