@@ -5,8 +5,7 @@ YTOnPlayerStateChangeCustom = function(e){},
 YTAnalyticsTrack = function(category, action, label){
 	if(typeof ga != 'undefined'){
 		ga('send', 'event', category, action, label);
-	} 
-	else if(typeof _gaq != 'undefined'){
+	} else if(typeof _gaq != 'undefined'){
 		 _gaq.push(['_trackEvent', category, action, label]);
 	}
 },
