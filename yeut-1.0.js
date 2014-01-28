@@ -37,7 +37,7 @@ function onPlayerStateChange(event){
 
 	YTOnPlayerStateChangeCustom(event);
 
-	if (event.data == YT.PlayerState.PAUSED && YTPlayersPreviousStatus[videoID] != YT.PlayerState.PAUSED){
+	if ((event.data == YT.PlayerState.PAUSED && YTPlayersPreviousStatus[videoID] != YT.PlayerState.PAUSED) || event.data != YT.PlayerState.PAUSED){
 		YTAnalyticsTrack(YTAnalyticsEventGroup, YTAnalyticsEventNames[event.data], videoID);
 	}
 	
