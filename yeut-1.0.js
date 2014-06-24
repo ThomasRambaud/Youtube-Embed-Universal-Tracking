@@ -1,3 +1,10 @@
+/* 
+Youtube Embed Universal Analytics
+copyright 24 February 2014, by Thomas Rambaud http://thomasrambaud.com
+Permission to use this Javascript on your web page is
+granted provided that all of the code in this script (including
+these comments) is used without any alteration 
+*/ 
 var YTPlayers = [],
 YTPlayersIds = [],
 YTPlayersPreviousStatus = [],
@@ -53,7 +60,7 @@ function appendIframeAPIScript(){
 
 function enableJSApiOnIframes(){
     var iframes = document.getElementsByTagName('iframe'),
-    regexYoutubeEmbedURL = /^((http|https):)?\/\/(?:www\.)?youtu(\.be|be\.com)\/embed\/([\w-]{11})(\?)?$/,
+    regexYoutubeEmbedURL = /^((http|https):)?\/\/(?:www\.)?youtu(\.be|be\.com)\/embed\/([\w-]{11})(\?)?(.*)$/,
     APIParam = 'enablejsapi=1&origin=' + window.location.origin;
 
     for(var i = 0, len = iframes.length; i < len; i++){
