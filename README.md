@@ -10,7 +10,7 @@ Installation:
 
 1 . Include the JavaScript at the bottom of your HTML page. It will detect and track all iframes existing onto the page.
 
-    <script type="text/javascript" src="yeut-1.0.js"></script>	
+    <script type="text/javascript" src="yeut-1.1.js"></script>	
 
 2 (optional) . If you use Google Analytics, no worries, all the tracking is done automaticaly. Otherwise, you must, after you included 
 YEUT, redefine the following function:
